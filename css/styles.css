@@ -1,13 +1,32 @@
-
-.item{
+*{
     font-family: 'Work Sans', sans-serif;
-    color: rgb(24, 54, 189);
-    font-weight: 300;
-    margin: 10px;
-    border-radius: 3px;
+
+
+}
+.item{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 700;
+    background-color: rgb(97, 97, 156);
+    border: none;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 1.5rem;
+    margin: 4px 2px;
+    width: 90%;
+   
+}
+p{
+    text-align: center;
+    margin: auto 10%;
+    padding: 10px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
 
 
 .profilepic {
@@ -24,12 +43,14 @@ img {
     max-width: 90%;
   }
 
-header, h1, h2, h3, p {
+header, h1, h2, h3 {
     text-align: center;
 }
 
 ul{
     list-style: none;
+    padding-top: 5px;
+    text-align: center;
 }
 /* flexbox */
 .nav-menu {
@@ -43,13 +64,12 @@ ul{
 
     
 }
-
-.bottompage {
-    display: flex;
-    
-    
+.toplink{
+    float: right;
 }
-
+.nametag{
+    float: left;
+}
 
 
 
