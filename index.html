@@ -4,20 +4,21 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mickey Arnold</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <header>
     <h1 id="home">Mickey Arnold</h1>
     <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-menu">
+                <div class="choice-1 item"><a href="#home">Home</a></div>
+                <div class="choice-2 item"><a href="#portfolio">Portfolio</a></div>
+                <div class="choice-3 item"><a href="#contact">Contact</a></div>
+        </div>
     </nav>
     <img class= "profilepic" src="img/images/responsive-layout-profile.png" alt="Profile image">
     <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a 
@@ -25,7 +26,7 @@
 </header>
 
     <div class="container">
-        <h2 id="portfolio">Portfolio</h2>
+        <h2 class="portfolio">Portfolio</h2>
         <img src="img/images/portfolio-1.png" alt="Portfolio image goes above Marketing page">
         <a href="#home">Back to Top</a>
         <h2>Marketing Page</h2>
@@ -57,7 +58,8 @@
     <a href="#home">Back to Top</a>
     <hr>
     <p>Student Name</p>
-    <p>Back to Top</p>
+    <a href="#home">Back to top</a>
+
 
 </footer>
 
