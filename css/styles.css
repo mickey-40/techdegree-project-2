@@ -3,7 +3,7 @@
 
 
 }
-.item{
+.choice {
     font-family: 'Work Sans', sans-serif; 
     font-weight: 700;
     background-color: rgb(97, 97, 156);
@@ -17,7 +17,7 @@
     width: 90%;
    
 }
-p{
+p {
     text-align: center;
     margin: auto 10%;
     padding: 10px;
@@ -29,12 +29,7 @@ a {
 }
 
 
-.profilepic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
+
 
 img {
     display: block;
@@ -75,8 +70,16 @@ ul{
 
 /*--- Bigger Screens --*/
 @media screen and (min-width: 768px) {
-
+.main-header, .container-1 {
+    display: flex;
     
+}
+.one, .two{
+    flex: 1;
+}
+
+
+
 }
 @media screen and (min-width: 1024px){
     
