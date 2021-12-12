@@ -115,6 +115,7 @@ img{
   .profilesec{
       flex-direction:row-reverse;
       width: 90%;
+      margin: auto;
   }
   .container{
       flex-wrap: wrap;
@@ -152,6 +153,9 @@ img{
     .main-header{
         flex-direction:row;
         justify-content:space-between;
+}
+.item{
+    flex: 1 33%;
 }
 }
 
