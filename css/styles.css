@@ -14,7 +14,9 @@ ul {
   list-style: none;
 }
 p {
-	margin-bottom: 1.5em;
+	margin: 1em;
+    text-align: center;
+    font: 1.2rem sans-serif;
 }
 h2,
 h3,
@@ -32,8 +34,14 @@ img{
     max-width: 100%;
     
 }
+.profileim {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
 .name {
-	font-size: 1.5em;
+	font-size: 2rem;
 	margin: 0;
 }
 .main-nav {
@@ -50,6 +58,7 @@ img{
 	font-size: .95em;
 	color: #3acec2;
 	text-transform: uppercase;
+    font: 20px sans-serif;
 }
 .main-nav a:hover {
 	color: red;
