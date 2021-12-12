@@ -6,18 +6,21 @@
     <title>Mickey Arnold</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/flexbox.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <header class="main-header">  
-        <h1 class="name">Mickey Arnold</h1>
+        <h1 id="home" class="name">Mickey Arnold</h1>
+            <nav>
                 <ul class="main-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
-                </ul>     
+                </ul> 
+            </nav>    
 </header>  
 
 <body>
@@ -28,7 +31,7 @@
     </div>
 
 
-    <h2 id="contentheadline">Portfolio</h2>
+    <h2 id="portfolio">Portfolio</h2>
     <div class="container">
         <div class="item">
             <img src="img/images/portfolio-1.png" alt="Portfolio image goes above Marketing page">
@@ -52,6 +55,11 @@
             <img src="img/images/portfolio-4.png" alt="Image that goes with favorite spots">
             <h2>Map of Favorite Spots</h2>
             <p>This projiect uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour</p>
+        </div>
+        <div class="item">
+            <img src="img/images/portfolio-5.png" alt="Image that goes with skills" id="skills">
+            <h2>Skills</h2>
+            <p>This project shows my awesome layout skills.</p>
         </div>
 
         <div class="item">
@@ -85,6 +93,7 @@
         <ul class="hide-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
