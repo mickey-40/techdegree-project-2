@@ -109,6 +109,9 @@ img{
 .hide-menu{
     display: none;
 }
+.nametag, .toplink {
+    font-size: 1.25em;
+}
 /*--- Bigger Screens --*/
 @media screen and (min-width: 768px) {
     .main-header,
@@ -132,6 +135,7 @@ img{
       flex-direction:row-reverse;
       width: 90%;
       margin: auto;
+      padding: 3%;
   }
   .container{
       flex-wrap: wrap;
@@ -152,6 +156,7 @@ img{
     .hide-menu{
         width: 40%;
         justify-content: space-around;
+        font-size: 1.25em;
        
     }
     .toplink{
